@@ -10,15 +10,23 @@ const heroProps = {
 const mainProps = {
   title: "Managed agency selection",
   description: "Strengthen your onboarding progress",
-  cardProps:{
-    title: ["Brief","Search","Pitch"],
-    description: [
-      "Complete <b>brief writing or simple guidance</b> on what to include, we've got you covered.",
-      "In-depth agency search covering; <b>criteria matching</b>, door knocking and due-dilligence vetting.",
-      "Comprehensive <b>pitch management</b>, including comms, diary managment and pitch hosting."
+  cardProps:[
+    {
+      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      title: "Brief",
+      description: "Complete <b>brief writing or simple guidance</b> on what to include, we've got you covered.",
+    },
+    {
+      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      title: "Search",
+      description: "In-depth agency search covering; <b>criteria matching</b>, door knocking and due-dilligence vetting.",
+    },
+    {
+      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      title: "Pitch",
+      description: "Comprehensive <b>pitch management</b>, including comms, diary managment and pitch hosting.",
+    }
   ]
-
-  }
 }
 
 export default function Home() {

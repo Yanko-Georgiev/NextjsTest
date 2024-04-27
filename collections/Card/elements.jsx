@@ -3,6 +3,14 @@ import styled from "styled-components";
 
 import { CardContainer, SectionParagraph, SectionSubheading } from "~/components";
 
+export const StyledCardTitle = styled(({...props})=><SectionSubheading {...props}/>)`
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:600;
+    font-size:1.5rem;
+    text-decoration: none;
+`;
+
 export const StyledCardContainer = styled(({width, ...props})=><CardContainer {...props}/>)`  
     background-color: #F9F9F9;
     display: flex;
@@ -41,13 +49,7 @@ export const StyledCardParagraph = styled(({...props})=><SectionParagraph {...pr
     
 `;
 
-export const StyledCardTitle = styled(({...props})=><SectionSubheading {...props}/>)`
-    margin-bottom:0px;
-    margin-top:0px;
-    font-weight:600;
-    font-size:1.5rem;
-    text-decoration: none;
-`;
+
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
     flex: 0;
     margin-right: 40px;

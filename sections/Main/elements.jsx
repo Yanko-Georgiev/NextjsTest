@@ -6,15 +6,13 @@ export const StyledContainer = styled(({ height, ...props }) => <SectionContaine
     background-image: url("/img/background.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 40rem; /* Adjust height as needed */
+    height: 40rem;
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
 
     @media (max-width: 1024px) {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
-        height: auto; /* Let the container adjust its height based on content */
+        flex-direction: column;
+        align-items: center;
+        height: auto;
     }
 `;
 
@@ -24,7 +22,7 @@ export const StyledTitle = styled((props) => <SectionHeading {...props} />)`
     text-align: center;
 
     @media (max-width: 1024px) {
-        margin-top: 3rem; /* Adjust margin for smaller screens */
+        margin-top: 3rem;
     }
 `;
 
@@ -34,7 +32,7 @@ export const StyledDescription = styled((props) => <SectionSubheading {...props}
     text-align: center;
 
     @media (max-width: 1024px) {
-        margin-bottom: 3rem; /* Adjust margin for smaller screens */
+        margin-bottom: 3rem;
     }
 `;
 
@@ -45,7 +43,7 @@ export const StyledImageContainer = styled.div`
     margin-left: auto;
 
     @media (max-width: 1024px) {
-        margin: 0 auto 2rem auto; /* Center the image and add space below */
+        margin: 0 auto 2rem auto; 
     }
 `;
 
@@ -58,6 +56,6 @@ export const StyledCardCollectionContainer = styled.div`
     margin-left: 5rem;
 
     @media (max-width: 1024px) {
-        margin: 0 auto; /* Center the card collection */
+        margin: 0 auto;
     }
 `;

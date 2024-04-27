@@ -19,17 +19,17 @@ export const StyledCardContainer = styled(({width, ...props})=><CardContainer {.
     padding: 20px;
     width:${props=>props.width}rem;
     height: 8rem;
-    border: 2px solid transparent; /* Set initial border */
-    transition: border-color 0.3s ease; /* Smooth transition for border color */
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease; 
     
     &:hover {
-        border-color: #006EFD; /* Change border color on hover */
+        border-color: #006EFD;
         cursor: pointer;
     }
     &:hover ${StyledCardTitle} {
-        color: #006EFD; /* Change text color on hover */
+        color: #006EFD;
         text-decoration: underline;
-        text-decoration-color: #006EFD; /* Underline text on hover */
+        text-decoration-color: #006EFD;
     }
 `;
 

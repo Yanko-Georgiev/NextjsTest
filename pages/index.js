@@ -12,19 +12,19 @@ const mainProps = {
   description: "Strengthen your onboarding progress",
   cardProps:[
     {
-      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      image: {src:"/img/design.png", alt:"",width:75,height:75},
       title: "Brief",
-      description: "Complete <b>brief writing or simple guidance</b> on what to include, we've got you covered.",
+      description: ["Complete ", "brief writing or simple guidance ", "on what to include, we've got you covered."],
     },
     {
-      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      image: {src:"/img/design.png", alt:"",width:75,height:75},
       title: "Search",
-      description: "In-depth agency search covering; <b>criteria matching</b>, door knocking and due-dilligence vetting.",
+      description: ["In-depth agency search covering; ", "criteria matching, ", "door knocking and due-dilligence vetting."],
     },
     {
-      image: {src:"/img/design.png", alt:"",width:50,height:50},
+      image: {src:"/img/design.png", alt:"",width:75,height:75},
       title: "Pitch",
-      description: "Comprehensive <b>pitch management</b>, including comms, diary managment and pitch hosting.",
+      description: ["Comprehensive ", "pitch management, ", "including comms, diary managment and pitch hosting."],
     }
   ]
 }

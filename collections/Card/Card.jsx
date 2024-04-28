@@ -6,7 +6,7 @@ export const Card =({ image, title, description, ...props})=>{
         <StyledCardContainer {...props}>
             <StyledTextContainer>
                 <StyledCardTitle>{title}</StyledCardTitle>
-                <StyledCardParagraph>{description[0]}<StyledSpan>{description[1]}</StyledSpan>{description[2]}</StyledCardParagraph>
+                <StyledCardParagraph dangerouslySetInnerHTML={{ __html: description }}></StyledCardParagraph>
             </StyledTextContainer>
             <StyledImageContainer>
                 <img src={image.src} width={image.width} height={image.height}/>

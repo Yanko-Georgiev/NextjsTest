@@ -14,7 +14,7 @@ export const Main = ({ background, title, description, cardProps, ...props }) =>
                 </StyledImageContainer>
                 <StyledCardCollectionContainer>
                     {cardProps.map((card, index) => (
-                        <Card key={index} width={26+index*2} image={card.image} title={card.title} description={card.description} />
+                        <Card key={index} width={26+index*2} image={card.image} title={card.title} description={card.description}/>
                     ))}
                 </StyledCardCollectionContainer>
             </StyledContainer>
